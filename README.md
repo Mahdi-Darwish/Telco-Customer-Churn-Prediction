@@ -96,7 +96,7 @@ The close cross-validation and test F1-scores suggest that the Logistic Regressi
 
 <p align="center">
   <img src="images/Confusion_matrix.png" width="500">
-</p>
+</p
 
 ---
 
