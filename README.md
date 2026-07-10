@@ -107,15 +107,6 @@ By lowering the classification threshold from **0.5** to **0.3**, churn recall i
 
 ---
 
-## 🔮 Future Improvements
-
-* Evaluate Gradient Boosting models such as XGBoost, LightGBM, and CatBoost.
-* Experiment with SMOTE and other class imbalance techniques.
-* Compare models using ROC-AUC and Precision-Recall curves.
-* Analyze feature importance using SHAP for improved model interpretability.
-
----
-
 ## ▶️ Running the Project
 
 ### Clone the repository
