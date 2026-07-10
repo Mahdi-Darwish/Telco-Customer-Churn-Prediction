@@ -77,18 +77,18 @@ The notebook follows a complete supervised machine learning pipeline:
 
 | Model               |     CV F1 |   Test F1 |
 | ------------------- | --------: | --------: |
-| **Random Forest**   | **0.625** | **0.657** |
-| Logistic Regression |     0.622 |     0.643 |
-| SVC                 |     0.610 |     0.643 |
-| KNN                 |     0.541 |     0.586 |
+| **Logistic Regression**   | **0.627** | **0.642** |
+| Random Forest |     0.631 |     0.640 |
+| SVC                 |     0.618 |     0.628 |
+| KNN                 |     0.553 |     0.562 |
 
 ### Best Model
 
-* **Model:** Random Forest
-* **Cross-validation F1-score:** **62.5%**
-* **Test F1-score:** **65.7%**
+* **Model:** Logistic Regression
+* **Cross-validation F1-score:** **62.7%**
+* **Test F1-score:** **64.2%**
 
-The close cross-validation and test F1-scores suggest that the Random Forest model generalizes well and exhibits limited overfitting after hyperparameter tuning.
+The close cross-validation and test F1-scores suggest that the Logistic Regression model generalizes well and exhibits limited overfitting after hyperparameter tuning.
 
 <p align="center">
   <img src="images/F1_Evaluation_matrix.png" width="700">
