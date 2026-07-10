@@ -1,9 +1,5 @@
 # 📉 Telco Customer Churn Prediction
 
-<p align="center">
-  <img src="images/workflow.png" alt="Project Workflow" width="100%">
-</p>
-
 An end-to-end supervised machine learning project that predicts whether a telecom customer is likely to churn (cancel their subscription). This project demonstrates the complete machine learning workflow, from exploratory data analysis and data preprocessing to model comparison, overfitting mitigation, and business-oriented threshold optimization.
 
 > **Goal:** Help telecom companies identify customers at risk of churning so proactive retention strategies can be applied.
@@ -81,25 +77,25 @@ The notebook follows the complete supervised machine learning pipeline:
 
 | Model | Test F1 |
 |--------|---------:|
-| **Logistic Regression** | **0.655** |
-| SVC | 0.646 |
-| Random Forest | 0.625 |
-| KNN | 0.547 |
+| **RandomForest** | **0.643** |
+| SVC | 0.643 |
+| Logistic Regression | 0.657 |
+| KNN | 0.586 |
 
 ### Best Model
 
-- **Model:** Logistic Regression
-- **Training Accuracy:** 75.9%
-- **Testing Accuracy:** 76.5%
+- **Model:** RandomForest
+- **Cross validation Accuracy:** 62.5%
+- **Testing Accuracy:** 65.7%%
 
 The close train and test scores indicate that overfitting was successfully mitigated after hyperparameter tuning.
 
 <p align="center">
-  <img src="images/model_comparison.png" width="700">
+  <img src="images/F1_evaluation_matrix.png" width="700">
 </p>
 
 <p align="center">
-  <img src="images/confusion_matrix.png" width="500">
+  <img src="images/Confusion_matrix.png" width="500">
 </p>
 
 ---
@@ -114,11 +110,9 @@ By lowering the classification threshold from **0.5** to **0.3**, churn recall i
 
 ## 🔮 Future Improvements
 
-- Feature engineering
 - Gradient Boosting models (XGBoost / LightGBM)
 - SMOTE for class balancing experiments
 - ROC-AUC and Precision-Recall analysis
-- Model deployment as a web application
 
 ---
 
