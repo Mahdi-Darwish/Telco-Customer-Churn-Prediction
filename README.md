@@ -91,11 +91,11 @@ The notebook follows a complete supervised machine learning pipeline:
 The close cross-validation and test F1-scores suggest that the Logistic Regression model generalizes well and exhibits limited overfitting after hyperparameter tuning.
 
 <p align="center">
-  <img src="images/f1_evaluation_matrix.png" width="700">
+  <img src="images/F1_evaluation_matrix.png" width="700">
 </p>
 
 <p align="center">
-  <img src="images/confusion_matrix.png" width="500">
+  <img src="images/Confusion_matrix.png" width="500">
 </p
 
 ---
