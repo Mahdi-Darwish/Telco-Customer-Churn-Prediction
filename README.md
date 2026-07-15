@@ -22,13 +22,16 @@ An end-to-end supervised machine learning project that predicts whether a teleco
 ├── data/
 │   └── Telco-Customer-Churn.csv
 ├── images/
-│   ├── F1_Evaluation_matrix.png
-│   └── Confusion_matrix.png
-├── telecom.ipynb
-|── README.md
-|__ requiements.txt
+│   ├── Confusion_matrix.png
+│   └── F1_Evaluation_matrix.png
+|__model/
+│   ├── telco_churn_pipeline.joblib
+|__notebooks/
+│   ├── telecom.ipynb
+|── .gitignore
 |__ LICENSE
----
+|__ README.md
+|__ requirements.txt
 
 ## 📊 Dataset
 
