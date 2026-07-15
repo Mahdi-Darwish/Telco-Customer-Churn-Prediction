@@ -26,9 +26,8 @@ An end-to-end supervised machine learning project that predicts whether a teleco
 │   └── Confusion_matrix.png
 ├── telecom.ipynb
 |── README.md
+|__ requiements.txt
 |__ LICENSE
-```
-
 ---
 
 ## 📊 Dataset
